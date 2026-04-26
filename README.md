@@ -58,7 +58,7 @@ This Lab was interesting. Getting to learn how to connect SSH through visual stu
 New changes made to this is the shift to Kubernetes instead of Docker Compose. The application is now being ran through using Deployments, Services, and Secrets. Doing this allows for dynamic health checks and restoration when containers are down, as compared to Docker Compose. 
 
 1. Use command *kubectl apply -f k8s/* to deply the application
-2. *http://<VM-IP>:30080* is the URL access to check dashboard
+2. *http://(VM-IP):30080* is the URL access to check dashboard
 
-Feedback: 
+# Feedback (Lab13): 
 Clear and concise lab instructions. Biggest takeaway is the inbetween questions given to the user to answer before moving onto doing more of the interactive parts of the lab. As tedious and sometimes a bit annoying the questions are, they serve to help build concepts and the "why" of what is being done in the more interactive parts of the lab 13. Seeing the live updates of pods/containers working and being deployed is also very good as it provides immediate live feedback to the user. 
