@@ -52,3 +52,13 @@ Things to do to double check working and healthy:
 # Feedback (Optional)
 
 This Lab was interesting. Getting to learn how to connect SSH through visual studio code was something that I really liked. Using the terminal all the time is fine, but the visual studio code interface is a lot better when it comes to organization. Being able to learn how to get containers up and running was also very interesting. Overall, the lab helped to teach and give on hands learning on how to properly start a Docker container. As well as learning how to hide files and knowing how to create configuration files.
+
+# Lab 13 - Kubernetes 
+
+New changes made to this is the shift to Kubernetes instead of Docker Compose. The application is now being ran through using Deployments, Services, and Secrets. Doing this allows for dynamic health checks and restoration when containers are down, as compared to Docker Compose. 
+
+1. Use command *kubectl apply -f k8s/* to deply the application
+2. *http://<VM-IP>:30080* is the URL access to check dashboard
+
+Feedback: 
+Clear and concise lab instructions. Biggest takeaway is the inbetween questions given to the user to answer before moving onto doing more of the interactive parts of the lab. As tedious and sometimes a bit annoying the questions are, they serve to help build concepts and the "why" of what is being done in the more interactive parts of the lab 13. Seeing the live updates of pods/containers working and being deployed is also very good as it provides immediate live feedback to the user. 
